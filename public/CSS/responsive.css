@@ -1,0 +1,66 @@
+/* Ukuran Layar MacBook Air */
+@media screen and (max-width : 1280px) {
+    .reservasi-place img {
+        width: 955px;
+    }
+
+    .TopFeature-img img {
+        width: 350px;
+        height: 475px;
+        border-radius: 24px;
+        margin: 0 20px 0 85px;
+    }
+
+    .TopFeature-img .nearYou-deskripsi {
+        width: 302px;
+    }
+
+    .nearYou-iconStar img {
+        width: 24px;
+        height: 24px;
+    }
+
+    .nearYou-iconArrow img {
+        width: 10px;
+        height: 10px;
+    }
+
+    .TopFeature-gallery img {
+        width: 166px;
+    }
+
+    .popular-content h3 {
+        font-size: 27px;
+    }
+
+    .popular-content h6 {
+        width: 350px;
+    }
+
+    .nearYou-gallery img {
+        width: 360px;
+    }
+
+    .nearYou-iconArrow img {
+        width: 10px;
+        height: 10px;
+    }
+
+    .nearYou-iconStar img {
+        width: 24px;
+        height: 24px;
+    }
+
+    .nearYou-deskripsi {
+        width: 330px;
+        left: 28px;
+    }
+
+    .profileChef-list {
+        width: 430px;
+    }
+
+    .dropdown-lokasi {
+        right: 110px;
+    }
+}
