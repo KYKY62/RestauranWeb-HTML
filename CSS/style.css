@@ -1,32 +1,57 @@
 /* Fonts */
 /* Nunito-ExtraBold*/
 @font-face {
+<<<<<<< HEAD
     font-family: "Nunito-ExtraBold";
     src: url(../fonts/Nunito-ExtraBold.ttf);
+=======
+  font-family: "Nunito-ExtraBold";
+  src: url(../fonts/Nunito-ExtraBold.ttf);
+>>>>>>> 7f8591c241ba18671012b3a84e888cfc195a1e12
 }
 
 /* Poppins-Bold */
 @font-face {
+<<<<<<< HEAD
     font-family: "Poppins-Bold";
     src: url(../fonts/Poppins-Bold.ttf);
+=======
+  font-family: "Poppins-Bold";
+  src: url(../fonts/Poppins-Bold.ttf);
+>>>>>>> 7f8591c241ba18671012b3a84e888cfc195a1e12
 }
 
 /* Poppins-Medium */
 @font-face {
+<<<<<<< HEAD
     font-family: "Poppins-Medium";
     src: url(../fonts/Poppins-Medium.ttf);
+=======
+  font-family: "Poppins-Medium";
+  src: url(../fonts/Poppins-Medium.ttf);
+>>>>>>> 7f8591c241ba18671012b3a84e888cfc195a1e12
 }
 
 /* Poppins-Regular */
 @font-face {
+<<<<<<< HEAD
     font-family: "Poppins-Regular";
     src: url(../fonts/Poppins-Regular.ttf);
+=======
+  font-family: "Poppins-Regular";
+  src: url(../fonts/Poppins-Regular.ttf);
+>>>>>>> 7f8591c241ba18671012b3a84e888cfc195a1e12
 }
 
 /* Poppins-SemiBold */
 @font-face {
+<<<<<<< HEAD
     font-family: "Poppins-SemiBold";
     src: url(../fonts/Poppins-SemiBold.ttf);
+=======
+  font-family: "Poppins-SemiBold";
+  src: url(../fonts/Poppins-SemiBold.ttf);
+>>>>>>> 7f8591c241ba18671012b3a84e888cfc195a1e12
 }
 
 /* Akhir Fonts */
@@ -36,6 +61,7 @@
 /* Akhir Warna */
 
 :root {
+<<<<<<< HEAD
     --color-blue: #5a4fcf;
     --color-Average: #fdc886;
     --color-goldText: #ffb800;
@@ -46,36 +72,49 @@
 * {
     font-family: "Poppins-Medium";
     color: var(--color-blackText);
+=======
+  --color-blue: #5a4fcf;
+  --color-Average: #fdc886;
+  --color-goldText: #ffb800;
+  --color-greyText: #656565;
+  --color-blackText: #232631;
+}
+
+* {
+  font-family: "Poppins-Medium";
+  color: var(--color-blackText);
+>>>>>>> 7f8591c241ba18671012b3a84e888cfc195a1e12
 }
 
 /* Navbar */
 .Nav-text {
-    font-size: 16px;
-    color: var(--color-blackText);
+  font-size: 16px;
+  color: var(--color-blackText);
 }
 
 .border-home {
-    border-bottom-color: var(--color-blue);
-    border-bottom-width: 2px;
-    border-bottom-style: solid;
-    border-radius: 2px;
+  border-bottom-color: var(--color-blue);
+  border-bottom-width: 2px;
+  border-bottom-style: solid;
+  border-radius: 2px;
 }
 
 .searchbox {
-    width: 332px;
-    height: 42px;
-    border-radius: 12px;
-    align-items: center;
-    padding: 16px 28px;
-    margin-right: 20px;
+  width: 332px;
+  height: 42px;
+  border-radius: 12px;
+  align-items: center;
+  padding: 16px 28px;
+  margin-right: 20px;
 }
 
 .searchbox img {
-    width: 20.26px;
-    height: 20.72px;
+  width: 20.26px;
+  height: 20.72px;
 }
 
 .searchbox input {
+<<<<<<< HEAD
     flex: 1;
     border: none;
     outline: none;
@@ -83,62 +122,86 @@
     padding-left: 10px;
     font-family: "Poppins-Medium";
     color: #858585;
+=======
+  flex: 1;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  padding-left: 10px;
+  font-family: "Poppins-Medium";
+  color: #858585;
+>>>>>>> 7f8591c241ba18671012b3a84e888cfc195a1e12
 }
 
 .btn-Login {
-    width: 104px;
-    height: 48px;
-    background-color: rgba(90, 79, 207, 0.1);
-    border: none;
-    border-radius: 12px;
+  width: 104px;
+  height: 48px;
+  background-color: rgba(90, 79, 207, 0.1);
+  border: none;
+  border-radius: 12px;
 }
 
 .img-resto {
-    width: 25px;
-    height: 25px;
-    margin-right: 10px;
+  width: 25px;
+  height: 25px;
+  margin-right: 10px;
 }
 
 .Judul {
+<<<<<<< HEAD
     font-family: "Nunito-ExtraBold";
     font-size: 24px;
     line-height: 14px;
+=======
+  font-family: "Nunito-ExtraBold";
+  font-size: 24px;
+  line-height: 14px;
+>>>>>>> 7f8591c241ba18671012b3a84e888cfc195a1e12
 }
 
 /* Akhir Navbar */
 /* Reservasi */
 #reservasi {
-    margin-top: 60px;
-    margin-bottom: 120px;
+  margin-top: 60px;
+  margin-bottom: 120px;
 }
 
 .reservasi-place img {
+<<<<<<< HEAD
     width: 1130px;
     height: 620px;
     right: 120px;
     border-radius: 24px;
     margin-right: 40px;
+=======
+  width: 1130px;
+  height: 620px;
+  right: 120px;
+  border-radius: 24px;
+  margin-right: 40px;
+>>>>>>> 7f8591c241ba18671012b3a84e888cfc195a1e12
 }
 
 .wrapper-img {
-    left: 90px;
+  left: 90px;
 }
 
 .Title-Reservasi {
-    height: 297px;
-    left: 130px;
-    top: 309px;
-    padding: 24px;
-    border-radius: 24px;
+  height: 297px;
+  left: 130px;
+  top: 309px;
+  padding: 24px;
+  border-radius: 24px;
 }
 
 .Title-Reservasi img {
-    width: 24px;
-    height: 24px;
-    margin-right: 5px;
+  width: 24px;
+  height: 24px;
+  margin-right: 5px;
 }
 
 .Title-Reservasi .rating-star {
+<<<<<<< HEAD
     color: var(--color-goldText);
     font-size: 18px;
     font-family: "Poppins-SemiBold";
@@ -159,14 +222,37 @@
     font-size: 18px;
     font-family: "Poppins-SemiBold";
     color: var(--color-greyText);
+=======
+  color: var(--color-goldText);
+  font-size: 18px;
+  font-family: "Poppins-SemiBold";
+}
+
+.Title-Reservasi span {
+  color: var(--color-greyText);
+  font-family: "Poppins-Regular";
+  font-size: 16px;
+}
+
+.Title-Reservasi .nama-restoran {
+  font-size: 22px;
+  font-family: "Poppins-SemiBold";
+}
+
+.reservasi-price {
+  font-size: 18px;
+  font-family: "Poppins-SemiBold";
+  color: var(--color-greyText);
+>>>>>>> 7f8591c241ba18671012b3a84e888cfc195a1e12
 }
 
 .reservasi-locate img {
-    width: 24px;
-    height: 24px;
+  width: 24px;
+  height: 24px;
 }
 
 .reservasi-locate h6 {
+<<<<<<< HEAD
     font-size: 16px;
     font-family: "Poppins-Regular";
     color: var(--color-greyText);
@@ -180,32 +266,48 @@
     font-size: 16px;
     font-family: "Poppins-SemiBold";
     margin-top: 34px;
+=======
+  font-size: 16px;
+  font-family: "Poppins-Regular";
+  color: var(--color-greyText);
+}
+
+.btn-Reservasi {
+  width: 226px;
+  height: 56px;
+  border-radius: 12px;
+  background-color: #fdc886;
+  font-size: 16px;
+  font-family: "Poppins-SemiBold";
+  margin-top: 34px;
+>>>>>>> 7f8591c241ba18671012b3a84e888cfc195a1e12
 }
 
 .btn-Reservasi img {
-    width: 8px;
-    height: 8px;
-    margin-left: 10px;
+  width: 8px;
+  height: 8px;
+  margin-left: 10px;
 }
 
 .noExtra {
-    font-size: 16px;
-    line-height: 24px;
-    color: var(--color-greyText);
-    margin-top: 12px;
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--color-greyText);
+  margin-top: 12px;
 }
 
 /* Akhir Reservasi */
 /* Benefit */
 #benefit {
-    margin-bottom: 120px;
+  margin-bottom: 120px;
 }
 
 .benefit-topHeader {
-    margin-bottom: 41px;
+  margin-bottom: 41px;
 }
 
 .benefit-topHeader h5 {
+<<<<<<< HEAD
     font-size: 16px;
     color: var(--color-blue);
     font-family: "Poppins-SemiBold";
@@ -214,17 +316,28 @@
 .benefit-topHeader h2 {
     font-size: 28px;
     font-family: "Poppins-SemiBold";
+=======
+  font-size: 16px;
+  color: var(--color-blue);
+  font-family: "Poppins-SemiBold";
+}
+
+.benefit-topHeader h2 {
+  font-size: 28px;
+  font-family: "Poppins-SemiBold";
+>>>>>>> 7f8591c241ba18671012b3a84e888cfc195a1e12
 }
 
 .benefit-card {
-    width: 100%;
-    height: 347px;
-    padding-top: 35px;
-    border-radius: 12px 12px 24px 24px;
+  width: 100%;
+  height: 347px;
+  padding-top: 35px;
+  border-radius: 12px 12px 24px 24px;
 }
 
 /* Hover Benefit Card */
 .benefit-card:hover {
+<<<<<<< HEAD
     outline: 2px solid #5a4fcf;
     outline-offset: 5px;
     transition: 0.5s ease-in-out;
@@ -246,21 +359,45 @@
     font-family: "Poppins-Regular";
     margin-top: 12px;
     padding: 0 7px;
+=======
+  outline: 2px solid #5a4fcf;
+  outline-offset: 5px;
+  transition: 0.5s ease-in-out;
+}
+
+.benefit-button:hover {
+  background-color: #fdc886;
+  transition: 1.2s ease-in-out;
+}
+
+.benefit-card h3 {
+  font-size: 18px;
+  font-family: "Poppins-SemiBold";
+  margin-top: 24px;
+}
+
+.benefit-card h5 {
+  font-size: 16px;
+  font-family: "Poppins-Regular";
+  margin-top: 12px;
+  padding: 0 7px;
+>>>>>>> 7f8591c241ba18671012b3a84e888cfc195a1e12
 }
 
 .circle-icon {
-    width: 80px;
-    height: 80px;
-    border-radius: 50%;
-    background: rgba(253, 200, 134, 0.15);
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background: rgba(253, 200, 134, 0.15);
 }
 
 .circle-icon img {
-    width: 58px;
-    height: 58px;
+  width: 58px;
+  height: 58px;
 }
 
 .benefit-button {
+<<<<<<< HEAD
     width: 226px;
     height: 56px;
     border-radius: 12px 12px 24px 24px;
@@ -268,21 +405,31 @@
     font-size: 16px;
     font-family: "Poppins-SemiBold";
     margin-top: 34px;
+=======
+  width: 226px;
+  height: 56px;
+  border-radius: 12px 12px 24px 24px;
+  background-color: #fff;
+  font-size: 16px;
+  font-family: "Poppins-SemiBold";
+  margin-top: 34px;
+>>>>>>> 7f8591c241ba18671012b3a84e888cfc195a1e12
 }
 
 .benefit-button img {
-    width: 8px;
-    height: 8px;
-    margin-left: 10px;
+  width: 8px;
+  height: 8px;
+  margin-left: 10px;
 }
 
 /* Akhir Reservasi */
 /* Top Featured */
 #topFeatured {
-    margin-bottom: 120px;
+  margin-bottom: 120px;
 }
 
 .popular-content h4 {
+<<<<<<< HEAD
     font-size: 16px;
     font-family: "Poppins-SemiBold";
     color: var(--color-blue);
@@ -310,49 +457,79 @@
     font-size: 16px;
     font-family: "Poppins-SemiBold";
     margin-top: 34px;
+=======
+  font-size: 16px;
+  font-family: "Poppins-SemiBold";
+  color: var(--color-blue);
+  margin-bottom: 6px;
+}
+
+.popular-content h3 {
+  font-size: 28px;
+  font-family: "Poppins-SemiBold";
+  margin: 6px 0 20px 0;
+}
+
+.popular-content h6 {
+  font-size: 16px;
+  font-family: "Poppins-Regular";
+  width: 80%;
+  margin-bottom: 56px;
+}
+
+.btn-viewAll {
+  width: 238px;
+  height: 56px;
+  border-radius: 12px;
+  background-color: #fdc886;
+  font-size: 16px;
+  font-family: "Poppins-SemiBold";
+  margin-top: 34px;
+>>>>>>> 7f8591c241ba18671012b3a84e888cfc195a1e12
 }
 
 .btn-viewAll img {
-    width: 8px;
-    height: 8px;
-    margin-left: 10px;
+  width: 8px;
+  height: 8px;
+  margin-left: 10px;
 }
 
 .TopFeature-img img {
-    width: 400px;
-    height: 475px;
-    border-radius: 24px;
-    margin: 0 20px 0 85px;
+  width: 400px;
+  height: 475px;
+  border-radius: 24px;
+  margin: 0 20px 0 85px;
 }
 
 .TopFeature-gallery img {
-    width: 214px;
-    height: 475px;
-    border-radius: 24px;
-    margin-right: 20px;
+  width: 214px;
+  height: 475px;
+  border-radius: 24px;
+  margin-right: 20px;
 }
 
 .TopFeature-img .nearYou-deskripsi {
-    width: 352px;
-    height: 131px;
-    border-radius: 24px;
-    left: 110px;
-    top: 320px;
+  width: 352px;
+  height: 131px;
+  border-radius: 24px;
+  left: 110px;
+  top: 320px;
 }
 
 .TopFeature-arrow {
-    right: -13px;
-    top: 18px;
+  right: -13px;
+  top: 18px;
 }
 
 /* Akhir Top Featured */
 /* Near You */
 
 #nearYou {
-    margin-bottom: 120px;
+  margin-bottom: 120px;
 }
 
 .nearYou-title h4 {
+<<<<<<< HEAD
     font-size: 16px;
     font-family: "Poppins-SemiBold";
     color: var(--color-blue);
@@ -362,63 +539,75 @@
     font-size: 28px;
     font-family: "Poppins-SemiBold";
     margin-top: 6px;
+=======
+  font-size: 16px;
+  font-family: "Poppins-SemiBold";
+  color: var(--color-blue);
+}
+
+.nearYou-title h2 {
+  font-size: 28px;
+  font-family: "Poppins-SemiBold";
+  margin-top: 6px;
+>>>>>>> 7f8591c241ba18671012b3a84e888cfc195a1e12
 }
 
 .dropdown-lokasi {
-    right: 100px;
+  right: 100px;
 }
 
 .wrapper-locate {
-    width: 242px;
-    height: 64px;
-    background: rgba(242, 242, 242, 1);
-    border: none;
-    border-radius: 12px;
+  width: 242px;
+  height: 64px;
+  background: rgba(242, 242, 242, 1);
+  border: none;
+  border-radius: 12px;
 }
 
 .wrapper-locate img {
-    width: 24px;
-    height: 24px;
-    align-items: center;
+  width: 24px;
+  height: 24px;
+  align-items: center;
 }
 
 .nearYou-Content {
-    margin-top: 38px;
+  margin-top: 38px;
 }
 
 .nearYou-gallery img {
-    width: 427px;
-    height: 415px;
-    border-radius: 24px;
-    margin-right: 20px;
+  width: 427px;
+  height: 415px;
+  border-radius: 24px;
+  margin-right: 20px;
 }
 
 .nearYou-iconArrow img {
-    width: 10px;
-    height: 10px;
+  width: 10px;
+  height: 10px;
 }
 
 .nearYou-iconStar img {
-    width: 24px;
-    height: 24px;
+  width: 24px;
+  height: 24px;
 }
 
 .nearYou-deskripsi {
-    width: 379px;
-    height: 134px;
-    border-radius: 24px;
-    left: 38px;
-    top: 238px;
+  width: 379px;
+  height: 134px;
+  border-radius: 24px;
+  left: 38px;
+  top: 238px;
 }
 
 .nearYou-CircleIcon {
-    width: 36px;
-    height: 36px;
-    background-color: var(--color-Average);
-    border-radius: 12px;
+  width: 36px;
+  height: 36px;
+  background-color: var(--color-Average);
+  border-radius: 12px;
 }
 
 .nearYou-iconStar h3 {
+<<<<<<< HEAD
     font-size: 18px;
     font-family: "Poppins-SemiBold";
 }
@@ -433,45 +622,62 @@
     color: var(--color-greyText);
     font-family: "Poppins-Regular";
     font-size: 16px;
+=======
+  font-size: 18px;
+  font-family: "Poppins-SemiBold";
+}
+
+.nearYou-iconStar .rating-star {
+  color: var(--color-goldText);
+  font-size: 16px;
+  font-family: "Poppins-SemiBold";
+}
+
+.nearYou-iconStar span {
+  color: var(--color-greyText);
+  font-family: "Poppins-Regular";
+  font-size: 16px;
+>>>>>>> 7f8591c241ba18671012b3a84e888cfc195a1e12
 }
 
 .wrapper-locate a {
-    text-decoration: none;
-    font-size: 16px;
-    color: var(--color-greyText);
+  text-decoration: none;
+  font-size: 16px;
+  color: var(--color-greyText);
 }
 
 /* Akhir Near You */
 /* Profile Chef */
 #profileChef {
-    height: 880px;
+  height: 880px;
 }
 
 img.img-chef {
-    width: 560px;
-    height: 848px;
-    border-radius: 24px;
+  width: 560px;
+  height: 848px;
+  border-radius: 24px;
 }
 
 .wrapper-chef {
-    left: 100px;
+  left: 100px;
 }
 
 .wrapper-experience {
-    width: 179px;
-    height: 203px;
-    left: 501px;
-    top: 53px;
-    border-radius: 24px;
-    box-shadow: 8px 8px 25px rgba(102, 102, 102, 0.04);
+  width: 179px;
+  height: 203px;
+  left: 501px;
+  top: 53px;
+  border-radius: 24px;
+  box-shadow: 8px 8px 25px rgba(102, 102, 102, 0.04);
 }
 
 .wrapper-experience img {
-    width: 50px;
-    height: 50px;
+  width: 50px;
+  height: 50px;
 }
 
 .wrapper-experience h4 {
+<<<<<<< HEAD
     font-size: 18px;
     font-family: "Poppins-SemiBold";
     color: var(--color-blackText);
@@ -481,32 +687,44 @@ img.img-chef {
     font-size: 16px;
     font-family: "Poppins-Regular";
     color: var(--color-greyText);
+=======
+  font-size: 18px;
+  font-family: "Poppins-SemiBold";
+  color: var(--color-blackText);
+}
+
+.wrapper-experience h6 {
+  font-size: 16px;
+  font-family: "Poppins-Regular";
+  color: var(--color-greyText);
+>>>>>>> 7f8591c241ba18671012b3a84e888cfc195a1e12
 }
 
 .wrapper-WorkFrom {
-    width: 330px;
-    height: 180px;
-    top: 420px;
-    left: 30px;
-    box-shadow: -8px 8px 25px rgba(102, 102, 102, 0.04);
-    border-radius: 24px;
-    padding: 24px 0 24px 24px;
+  width: 330px;
+  height: 180px;
+  top: 420px;
+  left: 30px;
+  box-shadow: -8px 8px 25px rgba(102, 102, 102, 0.04);
+  border-radius: 24px;
+  padding: 24px 0 24px 24px;
 }
 
 .wrapper-WorkFrom img {
-    width: 96px;
-    border-radius: 24px;
-    height: 132px;
-    margin-right: 12px;
+  width: 96px;
+  border-radius: 24px;
+  height: 132px;
+  margin-right: 12px;
 }
 
 .workForm-deskripsi img {
-    width: 8px;
-    height: 8px;
-    margin-left: 10px;
+  width: 8px;
+  height: 8px;
+  margin-left: 10px;
 }
 
 .workForm-deskripsi h4 {
+<<<<<<< HEAD
     color: var(--color-greyText);
     font-family: "Poppins-Regular";
     font-size: 16px;
@@ -524,15 +742,35 @@ img.img-chef {
     font-family: "Poppins-SemiBold";
     font-size: 16px;
     margin-top: 24px;
+=======
+  color: var(--color-greyText);
+  font-family: "Poppins-Regular";
+  font-size: 16px;
+}
+
+.workForm-deskripsi h6 {
+  color: var(--color-blackText);
+  font-family: "Poppins-SemiBold";
+  font-size: 18px;
+  margin-top: 4px;
+}
+
+.workForm-deskripsi h5 {
+  color: var(--color-goldText);
+  font-family: "Poppins-SemiBold";
+  font-size: 16px;
+  margin-top: 24px;
+>>>>>>> 7f8591c241ba18671012b3a84e888cfc195a1e12
 }
 
 .TopExpert-Chef {
-    right: -750px;
-    width: 5%;
-    height: 500px;
+  right: -750px;
+  width: 5%;
+  height: 500px;
 }
 
 .TopExpert-Chef h4 {
+<<<<<<< HEAD
     color: var(--color-blue);
     font-family: "Poppins-SemiBold";
     font-size: 18px;
@@ -543,45 +781,62 @@ img.img-chef {
     font-family: "Poppins-SemiBold";
     font-size: 32px;
     margin-bottom: 32px;
+=======
+  color: var(--color-blue);
+  font-family: "Poppins-SemiBold";
+  font-size: 18px;
+}
+
+.TopExpert-Chef h2 {
+  color: var(--color-blackText);
+  font-family: "Poppins-SemiBold";
+  font-size: 32px;
+  margin-bottom: 32px;
+>>>>>>> 7f8591c241ba18671012b3a84e888cfc195a1e12
 }
 
 .profileChef-list {
-    width: 596px;
-    height: 141px;
-    border-radius: 24px;
-    padding: 24px;
-    margin-bottom: 20px;
+  width: 596px;
+  height: 141px;
+  border-radius: 24px;
+  padding: 24px;
+  margin-bottom: 20px;
 }
 
 /* profileChef-list Hover */
 .profileChef-list:hover {
+<<<<<<< HEAD
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+=======
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+>>>>>>> 7f8591c241ba18671012b3a84e888cfc195a1e12
 }
 
 .profileChef-list h6 {
-    color: var(--color-greyText);
-    font-size: 16px;
-    margin-bottom: 6px;
+  color: var(--color-greyText);
+  font-size: 16px;
+  margin-bottom: 6px;
 }
 
 .profileChef-list h4 {
-    color: var(--color-blackText);
-    font-size: 22px;
-    margin-bottom: 6px;
+  color: var(--color-blackText);
+  font-size: 22px;
+  margin-bottom: 6px;
 }
 
 .chef-detail h5 {
-    color: var(--color-goldText);
-    font-size: 16px;
+  color: var(--color-goldText);
+  font-size: 16px;
 }
 
 .chef-detail img {
-    width: 8px;
-    height: 8px;
-    margin-left: 10px;
+  width: 8px;
+  height: 8px;
+  margin-left: 10px;
 }
 
 .btn-viewChef {
+<<<<<<< HEAD
     width: 186px;
     height: 56px;
     border-radius: 12px;
@@ -589,12 +844,21 @@ img.img-chef {
     font-size: 16px;
     font-family: "Poppins-SemiBold";
     margin-top: 34px;
+=======
+  width: 186px;
+  height: 56px;
+  border-radius: 12px;
+  background-color: #fdc886;
+  font-size: 16px;
+  font-family: "Poppins-SemiBold";
+  margin-top: 34px;
+>>>>>>> 7f8591c241ba18671012b3a84e888cfc195a1e12
 }
 
 .btn-viewChef img {
-    width: 8px;
-    height: 8px;
-    margin-left: 10px;
+  width: 8px;
+  height: 8px;
+  margin-left: 10px;
 }
 
 /* Akhir Profile Chef */
