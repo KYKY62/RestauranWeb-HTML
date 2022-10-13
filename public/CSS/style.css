@@ -1,31 +1,31 @@
 /* Fonts */
 /* Nunito-ExtraBold*/
 @font-face {
-    font-family: 'Nunito-ExtraBold';
+    font-family: "Nunito-ExtraBold";
     src: url(../fonts/Nunito-ExtraBold.ttf);
 }
 
 /* Poppins-Bold */
 @font-face {
-    font-family: 'Poppins-Bold';
+    font-family: "Poppins-Bold";
     src: url(../fonts/Poppins-Bold.ttf);
 }
 
 /* Poppins-Medium */
 @font-face {
-    font-family: 'Poppins-Medium';
+    font-family: "Poppins-Medium";
     src: url(../fonts/Poppins-Medium.ttf);
 }
 
 /* Poppins-Regular */
 @font-face {
-    font-family: 'Poppins-Regular';
+    font-family: "Poppins-Regular";
     src: url(../fonts/Poppins-Regular.ttf);
 }
 
 /* Poppins-SemiBold */
 @font-face {
-    font-family: 'Poppins-SemiBold';
+    font-family: "Poppins-SemiBold";
     src: url(../fonts/Poppins-SemiBold.ttf);
 }
 
@@ -36,15 +36,15 @@
 /* Akhir Warna */
 
 :root {
-    --color-blue: #5A4FCF;
-    --color-Average: #FDC886;
-    --color-goldText: #FFB800;
+    --color-blue: #5a4fcf;
+    --color-Average: #fdc886;
+    --color-goldText: #ffb800;
     --color-greyText: #656565;
     --color-blackText: #232631;
 }
 
 * {
-    font-family: 'Poppins-Medium';
+    font-family: "Poppins-Medium";
     color: var(--color-blackText);
 }
 
@@ -81,7 +81,7 @@
     outline: none;
     font-size: 16px;
     padding-left: 10px;
-    font-family: 'Poppins-Medium';
+    font-family: "Poppins-Medium";
     color: #858585;
 }
 
@@ -100,7 +100,7 @@
 }
 
 .Judul {
-    font-family: 'Nunito-ExtraBold';
+    font-family: "Nunito-ExtraBold";
     font-size: 24px;
     line-height: 14px;
 }
@@ -118,7 +118,6 @@
     right: 120px;
     border-radius: 24px;
     margin-right: 40px;
-
 }
 
 .wrapper-img {
@@ -142,23 +141,23 @@
 .Title-Reservasi .rating-star {
     color: var(--color-goldText);
     font-size: 18px;
-    font-family: 'Poppins-SemiBold';
+    font-family: "Poppins-SemiBold";
 }
 
 .Title-Reservasi span {
     color: var(--color-greyText);
-    font-family: 'Poppins-Regular';
+    font-family: "Poppins-Regular";
     font-size: 16px;
 }
 
 .Title-Reservasi .nama-restoran {
     font-size: 22px;
-    font-family: 'Poppins-SemiBold';
+    font-family: "Poppins-SemiBold";
 }
 
 .reservasi-price {
     font-size: 18px;
-    font-family: 'Poppins-SemiBold';
+    font-family: "Poppins-SemiBold";
     color: var(--color-greyText);
 }
 
@@ -169,7 +168,7 @@
 
 .reservasi-locate h6 {
     font-size: 16px;
-    font-family: 'Poppins-Regular';
+    font-family: "Poppins-Regular";
     color: var(--color-greyText);
 }
 
@@ -177,9 +176,9 @@
     width: 226px;
     height: 56px;
     border-radius: 12px;
-    background-color: #FDC886;
+    background-color: #fdc886;
     font-size: 16px;
-    font-family: 'Poppins-SemiBold';
+    font-family: "Poppins-SemiBold";
     margin-top: 34px;
 }
 
@@ -209,12 +208,12 @@
 .benefit-topHeader h5 {
     font-size: 16px;
     color: var(--color-blue);
-    font-family: 'Poppins-SemiBold';
+    font-family: "Poppins-SemiBold";
 }
 
 .benefit-topHeader h2 {
     font-size: 28px;
-    font-family: 'Poppins-SemiBold';
+    font-family: "Poppins-SemiBold";
 }
 
 .benefit-card {
@@ -225,19 +224,26 @@
 }
 
 /* Hover Benefit Card */
-.benefit-card:hover .benefit-button {
-    background-color: #FDC886;
+.benefit-card:hover {
+    outline: 2px solid #5a4fcf;
+    outline-offset: 5px;
+    transition: 0.5s ease-in-out;
+}
+
+.benefit-button:hover {
+    background-color: #fdc886;
+    transition: 1.2s ease-in-out;
 }
 
 .benefit-card h3 {
     font-size: 18px;
-    font-family: 'Poppins-SemiBold';
+    font-family: "Poppins-SemiBold";
     margin-top: 24px;
 }
 
 .benefit-card h5 {
     font-size: 16px;
-    font-family: 'Poppins-Regular';
+    font-family: "Poppins-Regular";
     margin-top: 12px;
     padding: 0 7px;
 }
@@ -258,9 +264,9 @@
     width: 226px;
     height: 56px;
     border-radius: 12px 12px 24px 24px;
-    background-color: #FFF;
+    background-color: #fff;
     font-size: 16px;
-    font-family: 'Poppins-SemiBold';
+    font-family: "Poppins-SemiBold";
     margin-top: 34px;
 }
 
@@ -278,20 +284,20 @@
 
 .popular-content h4 {
     font-size: 16px;
-    font-family: 'Poppins-SemiBold';
+    font-family: "Poppins-SemiBold";
     color: var(--color-blue);
     margin-bottom: 6px;
 }
 
 .popular-content h3 {
     font-size: 28px;
-    font-family: 'Poppins-SemiBold';
+    font-family: "Poppins-SemiBold";
     margin: 6px 0 20px 0;
 }
 
 .popular-content h6 {
     font-size: 16px;
-    font-family: 'Poppins-Regular';
+    font-family: "Poppins-Regular";
     width: 80%;
     margin-bottom: 56px;
 }
@@ -300,9 +306,9 @@
     width: 238px;
     height: 56px;
     border-radius: 12px;
-    background-color: #FDC886;
+    background-color: #fdc886;
     font-size: 16px;
-    font-family: 'Poppins-SemiBold';
+    font-family: "Poppins-SemiBold";
     margin-top: 34px;
 }
 
@@ -348,13 +354,13 @@
 
 .nearYou-title h4 {
     font-size: 16px;
-    font-family: 'Poppins-SemiBold';
+    font-family: "Poppins-SemiBold";
     color: var(--color-blue);
 }
 
 .nearYou-title h2 {
     font-size: 28px;
-    font-family: 'Poppins-SemiBold';
+    font-family: "Poppins-SemiBold";
     margin-top: 6px;
 }
 
@@ -392,7 +398,6 @@
     height: 10px;
 }
 
-
 .nearYou-iconStar img {
     width: 24px;
     height: 24px;
@@ -415,18 +420,18 @@
 
 .nearYou-iconStar h3 {
     font-size: 18px;
-    font-family: 'Poppins-SemiBold';
+    font-family: "Poppins-SemiBold";
 }
 
 .nearYou-iconStar .rating-star {
     color: var(--color-goldText);
     font-size: 16px;
-    font-family: 'Poppins-SemiBold';
+    font-family: "Poppins-SemiBold";
 }
 
 .nearYou-iconStar span {
     color: var(--color-greyText);
-    font-family: 'Poppins-Regular';
+    font-family: "Poppins-Regular";
     font-size: 16px;
 }
 
@@ -468,13 +473,13 @@ img.img-chef {
 
 .wrapper-experience h4 {
     font-size: 18px;
-    font-family: 'Poppins-SemiBold';
+    font-family: "Poppins-SemiBold";
     color: var(--color-blackText);
 }
 
 .wrapper-experience h6 {
     font-size: 16px;
-    font-family: 'Poppins-Regular';
+    font-family: "Poppins-Regular";
     color: var(--color-greyText);
 }
 
@@ -503,20 +508,20 @@ img.img-chef {
 
 .workForm-deskripsi h4 {
     color: var(--color-greyText);
-    font-family: 'Poppins-Regular';
+    font-family: "Poppins-Regular";
     font-size: 16px;
 }
 
 .workForm-deskripsi h6 {
     color: var(--color-blackText);
-    font-family: 'Poppins-SemiBold';
+    font-family: "Poppins-SemiBold";
     font-size: 18px;
     margin-top: 4px;
 }
 
 .workForm-deskripsi h5 {
     color: var(--color-goldText);
-    font-family: 'Poppins-SemiBold';
+    font-family: "Poppins-SemiBold";
     font-size: 16px;
     margin-top: 24px;
 }
@@ -529,13 +534,13 @@ img.img-chef {
 
 .TopExpert-Chef h4 {
     color: var(--color-blue);
-    font-family: 'Poppins-SemiBold';
+    font-family: "Poppins-SemiBold";
     font-size: 18px;
 }
 
 .TopExpert-Chef h2 {
     color: var(--color-blackText);
-    font-family: 'Poppins-SemiBold';
+    font-family: "Poppins-SemiBold";
     font-size: 32px;
     margin-bottom: 32px;
 }
@@ -550,7 +555,7 @@ img.img-chef {
 
 /* profileChef-list Hover */
 .profileChef-list:hover {
-    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
 }
 
 .profileChef-list h6 {
@@ -580,9 +585,9 @@ img.img-chef {
     width: 186px;
     height: 56px;
     border-radius: 12px;
-    background-color: #FDC886;
+    background-color: #fdc886;
     font-size: 16px;
-    font-family: 'Poppins-SemiBold';
+    font-family: "Poppins-SemiBold";
     margin-top: 34px;
 }
 
