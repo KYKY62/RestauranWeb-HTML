@@ -38,7 +38,7 @@
 :root {
     --color-blue: #5a4fcf;
     --color-Average: #fdc886;
-    --color-goldText: #ffb800;
+    --color-goldText: #705200;
     --color-greyText: #656565;
     --color-blackText: #232631;
 }
@@ -82,7 +82,7 @@
     font-size: 16px;
     padding-left: 10px;
     font-family: "Poppins-Medium";
-    color: #858585;
+    color: #595959;
 }
 
 .btn-Login {
@@ -439,6 +439,17 @@
     text-decoration: none;
     font-size: 16px;
     color: var(--color-greyText);
+}
+
+.nearYou-gallery div > img:hover {
+    outline: 2px solid #5a4fcf;
+    outline-offset: 5px;
+    transition: 0.5s ease-in-out;
+}
+
+.nearYou-gallery .nearYou-deskripsi:hover {
+    transform:translateY(-5px);
+    transition: transform 0.25s ease-in-out;
 }
 
 /* Akhir Near You */
