@@ -441,6 +441,17 @@
     color: var(--color-greyText);
 }
 
+.nearYou-gallery div > img:hover {
+    outline: 2px solid #5a4fcf;
+    outline-offset: 5px;
+    transition: 0.5s ease-in-out;
+}
+
+.nearYou-gallery .nearYou-deskripsi:hover {
+    transform:translateY(-5px);
+    transition: transform 0.25s ease-in-out;
+}
+
 /* Akhir Near You */
 /* Profile Chef */
 #profileChef {
