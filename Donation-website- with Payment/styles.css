@@ -1,0 +1,149 @@
+.navbar{
+    background-color:rgba(0,128,128);
+    color: white;
+
+}
+
+.navitem{
+    text-align: right;
+    color: white;
+   
+    text-decoration: none;
+   
+}
+.logo{
+    height: 30px;
+    width: 30px;
+    margin-left: 30px;
+}
+
+.navitems{
+    padding-left: 50px;
+}
+a{
+    text-align: right;
+    padding-right: 30px;
+}
+.navitem:hover{
+    color: white;
+}
+h1{
+
+    color: white;
+    font-weight: 1000;
+}
+h2{
+
+    color: white;
+    font-weight: 1000;
+}
+h3{
+
+    color: white;
+    font-weight: 1000;
+}
+.opacity{
+    padding-top: 50px;
+    background-image: url("images/Donation.jpg");
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    }
+    .opacitys{
+    padding-top: 50px;
+    background-image: url("images/Donation13.jpg");
+    height: 550px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    }
+
+.quote{
+    text-align: center;
+    
+}
+.col-lg-5{
+
+    padding: 50px 50px;
+}
+
+.heading{
+    color: white;
+}
+/*.contactdetails{
+    height: 700px;
+    background: -webkit-linear-gradient(120deg, #fdcd3b 60%, #ffed4b 60%);
+}*/
+.img1{
+    margin: 40px;
+    height: 120px;
+    width: 100px;
+}
+.button{
+ text-align: center;
+
+ 
+}
+
+ @import url('https://fonts.googleapis.com/css?family=Rubik&display=swap');
+
+ body {
+     background: linear-gradient(0deg, #fff, 50%, #DEEEFE);
+     font-family: 'Rubik', sans-serif;
+     background: #455A64;
+     height: 100 !important
+ }
+
+ .container-fluid {
+     overflow: hidden;
+     margin-top: 250px;
+     background: #262626;
+     color: #627482 !important;
+     margin-bottom: 0;
+     padding-bottom: 0
+ }
+
+ small {
+     font-size: calc(12px + (15 - 12) * ((100vw - 360px) / (1600 - 360))) !important
+ }
+
+ .bold-text {
+     color: #989c9e !important
+ }
+
+ .mt-55 {
+     margin-top: calc(50px + (60 - 50) * ((100vw - 360px) / (1600 - 360))) !important
+ }
+
+ h3 {
+     font-size: calc(34px + (40 - 34) * ((100vw - 360px) / (1600 - 360))) ;
+ }
+
+ .social {
+     font-size: 21px !important
+ }
+
+ .rights {
+     font-size: calc(10px + (12 - 10) * ((100vw - 360px) / (1600 - 360))) !important
+ }
+
+/*jssor slider loading skin spin css*/
+        .jssorl-009-spin img {
+            animation-name: jssorl-009-spin;
+            animation-duration: 1.6s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+        }
+
+        @keyframes jssorl-009-spin {
+            from { transform: rotate(0deg); }
+            to { transform: rotate(360deg); }
+        }
+
+        .jssora061 {display:block;position:absolute;cursor:pointer;}
+        .jssora061 .a {fill:none;stroke:#fff;stroke-width:360;stroke-linecap:round;}
+        .jssora061:hover {opacity:.8;}
+        .jssora061.jssora061dn {opacity:.5;}
+        .jssora061.jssora061ds {opacity:.3;pointer-events:none;}
+
