@@ -93,6 +93,11 @@
     border-radius: 12px;
 }
 
+.btn-Login:hover {
+    background-color: aqua;
+    border: solid;
+}
+
 .img-resto {
     width: 25px;
     height: 25px;
@@ -172,6 +177,11 @@
     color: var(--color-greyText);
 }
 
+.reservasi-locate h6:hover {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
 .btn-Reservasi {
     width: 226px;
     height: 56px;
@@ -180,6 +190,11 @@
     font-size: 16px;
     font-family: "Poppins-SemiBold";
     margin-top: 34px;
+}
+
+.btn-Reservasi:hover {
+    background-color: orange;
+    border-radius: 20px;
 }
 
 .btn-Reservasi img {
@@ -312,6 +327,11 @@
     margin-top: 34px;
 }
 
+.btn-viewAll:hover {
+    background-color: orange;
+    border-radius: 20px;
+}
+
 .btn-viewAll img {
     width: 8px;
     height: 8px;
@@ -441,14 +461,14 @@
     color: var(--color-greyText);
 }
 
-.nearYou-gallery div > img:hover {
+.nearYou-gallery div>img:hover {
     outline: 2px solid #5a4fcf;
     outline-offset: 5px;
     transition: 0.5s ease-in-out;
 }
 
 .nearYou-gallery .nearYou-deskripsi:hover {
-    transform:translateY(-5px);
+    transform: translateY(-5px);
     transition: transform 0.25s ease-in-out;
 }
 
@@ -600,6 +620,11 @@ img.img-chef {
     font-size: 16px;
     font-family: "Poppins-SemiBold";
     margin-top: 34px;
+}
+
+.btn-viewChef:hover {
+    background-color: orange;
+    border-radius: 20px;
 }
 
 .btn-viewChef img {
